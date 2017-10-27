@@ -95,6 +95,8 @@ AccountManager.prototype.getUserData = function(account, key, callback)
 };
 // AccountManager.prototype.checkAutoSync = function(callback)
 // {
+	// AccountManager.prototype.checkAutoSync = function(callback)
+// {
 // 	return cordova.exec(
 // 		successCallback,
 // 		null,
