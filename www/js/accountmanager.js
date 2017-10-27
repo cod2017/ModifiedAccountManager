@@ -1,4 +1,4 @@
-cordova.define("com.polychrom.cordova.AccountManagerPlugin.accountmanager", function(require, exports, module) {
+// cordova.define("com.polychrom.cordova.AccountManagerPlugin.accountmanager", function(require, exports, module) {
 // Copyright (C) 2013 Polychrom Pty Ltd
 //
 // This program is licensed under the 3-clause "Modified" BSD license,
@@ -116,4 +116,4 @@ AccountManager.prototype.getUserData = function(account, key, callback)
 
 if(!window.plugins) window.plugins = {};
 window.plugins.accountmanager = new AccountManager();
-});
+// });
